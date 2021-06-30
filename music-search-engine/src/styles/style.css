@@ -1,0 +1,29 @@
+.nav-title {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.titles-style {
+  font-weight: bolder;
+  font-style: italic;
+}
+.nav-main {
+  margin-bottom: 30px;
+}
+.job-logo {
+  font-size: 36px;
+}
+.search-desc {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.search-bar-icon {
+  margin-left: 20px;
+  font-size: 22px;
+}
+.main-cont {
+  margin-left: 120px;
+}
