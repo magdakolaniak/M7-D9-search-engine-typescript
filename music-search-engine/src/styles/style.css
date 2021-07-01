@@ -27,3 +27,34 @@
 .main-cont {
   margin-left: 120px;
 }
+.shadow-style {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin-bottom: 25px;
+  margin-top: 5px;
+  transition: transform 0.7s ease-in-out;
+  transform: scale(1);
+  height: 530px;
+  width: 400px;
+}
+
+.card-image-style {
+  transition: transform 0.7s ease-in-out;
+  transform: scale(1);
+}
+.card-image-style :hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+  box-shadow: 2px 2px 15px rgb(109, 109, 109);
+}
+.artist-image {
+  height: 80px;
+  padding-left: 90px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+.subtitle {
+  font-style: italic;
+  font-weight: 700;
+}
