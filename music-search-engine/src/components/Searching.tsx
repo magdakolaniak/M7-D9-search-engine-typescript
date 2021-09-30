@@ -13,6 +13,7 @@ import {
 } from 'react-bootstrap';
 import { ChangeEvent, useState } from 'react';
 import { Result } from '../types/interfaces';
+import { useEffect } from 'react';
 
 function Searching() {
   const [query, setQuery] = useState<string>('');
@@ -36,7 +37,7 @@ function Searching() {
       );
       let res = await response.json();
       let resp = res.data;
-
+      console.log(resp);
       setResults(resp);
     } catch (error) {
       console.log(error);
